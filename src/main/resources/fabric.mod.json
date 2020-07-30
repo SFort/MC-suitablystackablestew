@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "suitablystackablestew",
+  "version": "${version}",
+
+  "name": "Suitably Stackable Stew",
+  "description": "Allows beetroot, mushroom, rabbit and suspisius stew to stack up to 16",
+  "authors": [
+    "SFort"
+  ],
+  "contact": {
+    "sources": "https://github.com/SFort/MC-suitablystackablestew"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "mixins": [
+    "suitablystackablestew.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
