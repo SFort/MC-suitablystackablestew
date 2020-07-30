@@ -4,11 +4,11 @@
   "package": "sf.ssf.sfort.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
     "StewItem",
     "MushStew",
     "SuspStew"
+  ],
+  "client": [
   ],
   "injectors": {
     "defaultRequire": 1
