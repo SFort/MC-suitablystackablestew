@@ -18,8 +18,8 @@ public class SuspStew extends Item{
 	private void use(ItemStack stack, World world, LivingEntity user, CallbackInfoReturnable<ItemStack> info) {
 		info.setReturnValue(new ItemStack(Items.BOWL));
 		if (!stack.isEmpty() && user instanceof PlayerEntity) {
-			if (!((PlayerEntity) user).abilities.creativeMode) {
-				((PlayerEntity) user).inventory.insertStack(new ItemStack(Items.BOWL));
+			if (!((PlayerEntity) user).getAbilities().creativeMode) {
+				((PlayerEntity) user).getInventory().insertStack(new ItemStack(Items.BOWL));
 			}
 			info.setReturnValue(stack);
 		}
