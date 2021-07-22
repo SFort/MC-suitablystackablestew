@@ -1,3 +1,3 @@
 Server-Side
 # MC-suitablystackablestew
-Increases stacksize of beetroot, mushroom, rabbit and suspisius stew
+Increases stacksize of beetroot, mushroom, rabbit and suspicious stew
