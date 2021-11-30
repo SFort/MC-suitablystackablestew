@@ -1,16 +1,16 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "sf.ssf.sfort.mixin",
+  "package": "sf.ssf.sfort.suitablystackablestew.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "StewItem",
-    "MushStew",
-    "SuspStew"
+    "StewItemsMixin",
+	"MushStew",
+	"SuspStew"
   ],
   "client": [
   ],
   "injectors": {
-    "defaultRequire": 1
+	"defaultRequire": 1
   }
 }

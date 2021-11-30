@@ -1,4 +1,4 @@
-package sf.ssf.sfort.mixin;
+package sf.ssf.sfort.suitablystackablestew.mixin;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
